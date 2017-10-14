@@ -1,0 +1,131 @@
+<style>
+* {
+	box-sizing: border-box;
+	height: 100%;
+	width: 960px;
+	margin: 0;
+	overflow: auto;
+}
+
+header {
+	height: 90px;
+	width: 100%;
+	margin: 0;
+	background-color: #426f85;
+	color: #c8b29a;
+	font-size: 36px;
+	font-family: 'Mukta', sans-serif;
+	line-height: 250%;
+	float: left;
+	text-align: center;
+}
+
+h1, h2, h3, h4, p {
+	font-family: 'Lato', sans-serif;
+}
+
+h2, h3 {
+	color: #426f85;
+}
+
+h2 {
+	font-size: 32px;
+	line-height: 250%;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 250%;
+}
+
+h4 {
+	font-size: 20px;
+	line-height: 250%;
+	color: #352b29;
+}
+
+p {
+	line-height: 150%;
+	padding-bottom: 10px;
+	color: #352b29;
+}
+
+button {
+	display: inline-block;
+	float: left;
+}
+
+.buttonImg {
+	width: 150px;
+}
+
+#bg-container {
+	display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+	background-image: url("../images/intersection.png");
+	margin: 0;
+	padding: 0;
+}
+
+#leftDiv {
+	width: 670px;
+	float: left;
+	height: auto;
+	margin-left: 100px;
+}
+
+#buttonDiv {
+	float: left;
+	width: 670px;
+	margin-top: 40px;
+}
+
+#innerCol {
+	float: left;
+	width: 306px;
+	height: auto;
+	margin: 30px 182px auto 182px;
+}
+
+#rules, #randNumDiv, #scoreDiv, #winLoss {
+	border-color: 3px solid #4a3a67;
+	border-radius: 8px;
+}
+
+#rules {
+	float: left;
+	width: 300px;
+	margin: 40px auto auto 40px;
+	padding: 0 30px 30px 30px; 
+	background-color: #ffffff;
+}
+
+#randNumDiv {
+	float: left;
+	width: 300px;
+	padding-left: 25px;
+	background-color: #eb7b76;
+}
+
+#scoreDiv {
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+	padding-left: 25px;
+	background-color: #e4dcac;
+}
+
+#winLoss {
+	float: left;
+	width: 300px;
+	margin-top: 20px;
+	padding-left: 25px;
+	background-color: #96b2ca;
+}
+</style>

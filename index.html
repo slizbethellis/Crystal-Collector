@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collector</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Mukta" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/javascript/game.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div id="bg-container">
+		<header>
+			<h1>Crystal Collector</h1>
+		</header>
+
+		<div id="leftDiv">
+			<div id="buttonDiv">
+				<button id="crystal1" class="crystalButton" value="1"><img class="buttonImg" src="assets/images/aquamarine.png" alt="crystal1"></button>
+				<button id="crystal2" class="crystalButton" value="2"><img class="buttonImg" src="assets/images/quartz.png" alt="crystal2"></button>
+				<button id="crystal3" class="crystalButton" value="3"><img class="buttonImg" src="assets/images/sceptre.png" alt="crystal3"></button>
+				<button id="crystal4" class="crystalButton" value="4"><img class="buttonImg" src="assets/images/selpologne.png" alt="crystal4"></button>
+			</div>
+
+			<div id="innerCol">
+				<article id="randNumDiv">
+					<h2 id="randNum">0</h2>
+				</article>
+
+				<article id="scoreDiv">
+					<h3>Your total score is: </h3><h4 id="score">0</h4>
+				</article>
+
+				<article id="winLoss">
+					<h3>Wins: </h3><h4 id="wins">0</h4>
+					<h3>Losses: </h3><h4 id="losses">0</h4>
+				</article>
+			</div>
+		</div>
+
+		<aside id="rules">
+			<h2>Rules:</h2>
+			<p>
+				You will be given a random number at the start of the game.
+			</p>
+			<p>
+				There are four crystals to the left. By clicking on a crystal, you will add a specific amount of points to your score.
+			</p>
+			<p>
+				You win the game by matching your total score to the random number, and you lose if you total score goes above the random number.
+			</p>
+			<p>
+				The value of each crystal is hidden from you until you click on it.
+			</p>
+			<p>
+			Each time when the game starts, the game will change the values of each crystal.
+		</p>
+		</aside>
+
+		
+	</div>
+</body>
+</html>
