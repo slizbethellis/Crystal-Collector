@@ -5,6 +5,8 @@ If the user's score matches the target number, the user wins. If the score excee
 
 The value of each crystal is hidden, and the user must determine the value of each crystal by watching the score change.
 
+This game utilizes jQuery for the logic, and Bootstrap 3 for the layout.
+
 Follow the instructions on the page and play the game here: https://slizbethellis.github.io/Crystal-Collector/
 
 ![Crystal Collector](/crystal-collector.png?raw=true)
