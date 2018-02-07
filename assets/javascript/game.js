@@ -26,13 +26,9 @@ var game = {
   	game.randNum = Math.floor(Math.random() * 120) + 19;
   	$("#randNum").html(game.randNum);
   	game.crystal1 = Math.floor(Math.random() * 12) + 1;
-  	console.log(game.crystal1);
   	game.crystal2 = Math.floor(Math.random() * 12) + 1;
-  	console.log(game.crystal2);
   	game.crystal3 = Math.floor(Math.random() * 12) + 1;
-  	console.log(game.crystal3);
   	game.crystal4 = Math.floor(Math.random() * 12) + 1;
-  	console.log(game.crystal4);
   	$("#score").html(game.score);
   },
 
@@ -57,8 +53,6 @@ var game = {
   	else if (button === 4) {
   		game.crystalValue = game.crystal4;
   	}
-
-  	console.log(game.crystalValue);
 
   	game.addScore(game.crystalValue);
   },
